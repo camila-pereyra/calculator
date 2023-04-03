@@ -1,0 +1,10 @@
+.visor{
+    padding: 10px;
+    background-color: #555C77;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 60px;
+}

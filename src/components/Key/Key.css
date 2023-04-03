@@ -1,0 +1,20 @@
+.key{
+    width: 100px;    
+    height: 100px;
+    background-color:#5043E7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.keyEqual{
+    width: 220px;
+    background-color: #ED3838;
+}
+
+.key:hover{
+    background-color:#2d2680;
+}
+.keyEqual:hover{
+    background-color: #a32626;
+}

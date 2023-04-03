@@ -1,0 +1,18 @@
+.calculator{
+    width: 480px;
+    background-color: #3F4144;
+    border-radius: 10px;
+    box-shadow: 15px 15px 10px rgb(49, 49, 49);
+}
+.containerVisor{
+    padding: 10px;
+}
+.containerKeys{
+    padding: 0 10px 10px 10px;
+}
+.rowKeys{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
