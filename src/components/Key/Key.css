@@ -5,7 +5,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border: none;
     border-radius: 10px;
+    color: white;
+    font-size: 40px;
 }
 .keyEqual{
     width: 220px;

@@ -1,27 +1,21 @@
-import { useState } from "react";
 import "./Key.css";
 import className from "classnames";
 
 const Key = ({ value, handleClick }) => {
-  const [number, setNumber] = useState("");
   const keyClass = className({
     key: true,
     keyEqual: value === "=",
   });
 
   return (
-    <div
+    <button
       className={keyClass}
       onClick={() => {
-        if (value === "C") {
-          handleClick("0");
-        } else {
-          handleClick(value);
-        }
+        handleClick(value);
       }}
     >
       {value}
-    </div>
+    </button>
   );
 };
 
