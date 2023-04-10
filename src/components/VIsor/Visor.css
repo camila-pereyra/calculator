@@ -1,7 +1,7 @@
 .visor{
     padding: 10px;
     background-color: #555C77;
-    height: 150px;
+    height: 110px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -10,9 +10,20 @@
     
 }
 .operation{
-    font-size: 30px;
-    height: 35px;
+    font-size: 20px;
+    
 }
 .total{
-    font-size: 70px;
+    font-size: 50px;
+}
+@media (min-width:500px){
+    .visor{
+        height: 150px;
+    }
+    .operation{
+        font-size: 30px;
+    }
+    .total{
+        font-size: 70px;
+    }
 }

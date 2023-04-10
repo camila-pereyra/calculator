@@ -1,6 +1,6 @@
 .key{
-    width: 100px;    
-    height: 100px;
+    width: 60px;    
+    height: 60px;
     background-color:#5043E7;
     display: flex;
     justify-content: center;
@@ -8,13 +8,22 @@
     border: none;
     border-radius: 10px;
     color: white;
-    font-size: 40px;
+    font-size: 20px;
 }
 .keyEqual{
-    width: 220px;
+    width: 130px;
     background-color: #ED3838;
 }
-
+@media (min-width:500px) {
+    .key{
+        width: 100px;    
+        height: 100px;
+        font-size: 40px
+    }
+    .keyEqual{
+        width: 220px; 
+    }
+}
 .key:hover{
     background-color:#2d2680;
 }

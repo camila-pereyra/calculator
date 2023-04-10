@@ -1,8 +1,18 @@
 .calculator{
-    width: 480px;
+    width: 300px;
     background-color: #3F4144;
     border-radius: 10px;
-    box-shadow: 15px 15px 10px rgb(49, 49, 49);
+    box-shadow: 10px 10px 5px rgb(49, 49, 49);
+}
+@media (min-width:500px) {
+    .calculator{
+        width: 480px;
+    }
+}
+@media (min-width:530px){
+    .calculator{
+        box-shadow: 15px 15px 10px rgb(49, 49, 49);
+    }
 }
 .containerVisor{
     padding: 10px;
