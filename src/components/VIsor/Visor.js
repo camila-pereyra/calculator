@@ -1,23 +1,21 @@
 import "./Visor.css";
 
-const Visor = ({ currentValue, operator, nextValue, clean, total }) => {
+const Visor = ({ currentValue, operator, nextValue, total }) => {
   return (
     <div className="visor">
       <div className="operation">
-        {clean
+        {currentValue === "0"
           ? ""
           : operator === null
           ? ""
-          : nextValue === ""
-          ? currentValue + " " + operator
           : total === ""
           ? currentValue + " " + operator
           : currentValue + " " + operator + " " + nextValue + " = "}
       </div>
 
       <div className="total">
-        {clean
-          ? "0"
+        {total !== ""
+          ? total
           : operator === null
           ? currentValue
           : nextValue === ""
